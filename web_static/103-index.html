@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="stylesheet" href="styles/103-common.css">
+    <link rel="stylesheet" href="styles/103-header.css">
+    <link rel="stylesheet" href="styles/103-footer.css">
+    <link rel="stylesheet" href="styles/103-filters.css">
+    <link rel="stylesheet" href="styles/103-places.css">
+    <title>AirBnB clone</title>
+  </head>
+  <body>
+    <header>
+      <div class="mobile_nav" role="navigation" aria-label="Navigate through site content">
+        <label for="main_check" class="main_nav_burguer" aria-label="Responsive popup menu">|||</label>
+        <input type="checkbox" id="main_check" name="main_check" class="main_nav_check" aria-hidden="true" tabindex=0>
+          <nav>
+              <ul class="nav_bar_level1">
+                <li>
+                    <label for="second_check"><span>States</span></label>
+                    <input type="checkbox" name="second_check" id="second_check" aria-hidden="true">
+                  <ul>
+                    <li><span>Nigeria</span></li>
+                    <li><span>Abuja</span></li>
+                  </ul>
+                  </li>
+                <li>
+                  <label for="third_check"><span>Amenities</span></label>
+                  <input type="checkbox" name="second_check" id="third_check" aria-hidden="true">
+                  <ul>
+                    <li><span>Internet</span></li>
+                    <li><span>Tv</span></li>
+                    <li><span>Wifi</span></li>
+                    <li><span>Kitchen</span></li>
+                    <li><span>Iron</span></li>
+                  </ul>
+                  </li>
+              </ul>
+        </nav><!-- final del main_nav_bar -->
+      </div>
+    </header>
+ 
+    <div class="container">
+      <section class="filters">
+        <div class="locations">
+          <h3>States</h3>
+          <h4>Abuja, Nigeria...</h4>
+          <ul class="popover">
+            <li><h2>Nigeria:</h2>
+              <ul>
+                <li>Page</li>
+                <li>Page2</li>
+              </ul>
+            </li>
+            <li><h2>Abuja:</h2>
+              <ul>
+                <li>Abuja</li>
+                <li>Nigeria</li>
+              </ul>
+            </li>
+            </ul>
+        </div>
+        <div class="amenities">
+          <h3>Amenities</h3>
+          <h4>Internet, Kitchen...</h4>
+          <ul class="popover">
+            <li>Internet</li>
+            <li>Tv</li>
+            <li>Kitchen</li>
+            <li>Iron</li>
+          </ul>
+        </div>
+        <button type="button" name="button">Search</button>
+      </section> <!-- end fiter-->
+
+      <section class="places">
+        <h1>Places</h1>
+        <article><!-- My home -->
+          <div class="article_places_header">
+            <h2>My home</h2>
+            <div class="price_by_night">$80</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">2 Guests</div>
+            <div class="number_rooms">1 Bedroom</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b>Henry</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p>This is a lovely 1 bathroom apartament that can accommodate 2 people.</p>
+          </div><!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+            </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                Tv
+            </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                Wifi
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>2 Reviews</h2>
+            <ul>
+              <li>
+                <h3>From Babz the 27th February 2024</h3>
+                <p>A very nice place.</p>
+              </li>
+              <li>
+                <h3>From Davis 28th February 2024</h3>
+                <p>So good.</p>
+              </li>
+            </ul>
+          </div>
+        </article><!-- end My home -->
+
+        <article>
+          <h2>Tiny house</h2>
+          <div class="price_by_night">$65</div>
+          <div class="information">
+            <div class="max_guest">4 Guests</div>
+            <div class="number_rooms">2 Bedrooms</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b> Kaycee</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p>Our place is afffordable, guest house centrally located just some minutes to garki Quarters. The guest house is a quaint, 700 suare ft. with a full bathroom, large kitchen, & living room.</p>
+          </div><!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>1 Review</h2>
+            <ul>
+              <li>
+                <h3>From Mathew, 15th March 2024</h3>
+                <p>Runshi is an epic host. Nothing more i can say. 5 star!</p>
+              </li>
+              <li>
+                <h3>From Campbell willy, 4th march 2024</h3>
+                <p>Higly recommended!</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <h2>A suite</h2>
+          <div class="price_by_night">$190</div>
+          <div class="information">
+            <div class="max_guest">5 Guests</div>
+            <div class="number_rooms">3 Bedroom</div>
+            <div class="number_bathrooms">2 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b> Soe Leo</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p>It contains a decked terrace, jacuzzi, firepit, rabbits garden, two rooms, two balconies, entrance gate, private garden, private parking, BBQ area, AC in each bedroom, technological equipment, luxury beds, and mountain views. Ideal for architecture lovers, romantic dates, or having a good time. It is a unique space of his kind. Only pets that do not harm rabbits are allowed.</p>
+          </div><!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+            </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                Tv
+            </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                Wifi
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>1 Review</h2>
+            <ul>
+              <li>
+                <h3>From Mugo park 16th February, 2024</h3>
+                <p>Nice place to be!</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+        </section> <!-- end section -->
+    </div>
+    <footer>
+      <p>Best School</p>
+    </footer>
+  </body>
+</html>
